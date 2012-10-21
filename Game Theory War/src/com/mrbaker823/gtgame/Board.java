@@ -1,4 +1,4 @@
-package com.baker.gtgame;
+package com.mrbaker823.gtgame;
 
 public class Board {
 	

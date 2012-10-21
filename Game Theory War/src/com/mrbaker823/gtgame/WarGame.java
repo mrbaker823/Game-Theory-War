@@ -1,11 +1,13 @@
-package com.baker.gtgame;
+package com.mrbaker823.gtgame;
 
 import android.app.Activity;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.view.Display;
 import android.view.Menu;
-import com.baker.gtgame.Board;
+
+import com.mrbaker823.gtgame.Board;
+import com.mrbaker823.gtgame.R;
 
 public class WarGame extends Activity {
 
