@@ -6,9 +6,6 @@ import android.os.Bundle;
 import android.view.Display;
 import android.view.Menu;
 
-import com.mrbaker823.gtgame.Board;
-import com.mrbaker823.gtgame.R;
-
 public class WarGame extends Activity {
 
     @Override
@@ -26,6 +23,11 @@ public class WarGame extends Activity {
         
         System.out.println(Board.BOARDSIZE);
         System.out.println("1");
+        
+        
+		Node a = new maxNode();
+		a.MinMax();
+
     }
 
     @Override
